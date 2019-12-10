@@ -1,0 +1,17 @@
+This project uses a django-rest-framework and a fresh Django server to create an API as a potential demo for a shoe store with the following models, broken out for standardization:
+
+Manufacturer
+name: str
+website: url
+ShoeType
+style: str
+ShoeColor
+color_name: str (ROYGBIV + white / black)
+Shoe
+size: int
+brand name: str
+manufacturer: FK
+color: FK
+material: str
+shoe_type: FK
+fasten_type: str
